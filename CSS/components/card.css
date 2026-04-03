@@ -1,10 +1,10 @@
 .cards {
-  background-color: #0A4C73; /* Un bleu très pâle pour rester dans le thème */
+  background-color: #0A4C73; 
   padding: 40px 20px;
   display: flex;
-  flex-wrap: wrap;      /* Permet de passer à la ligne */
-  justify-content: center; /* Centre le groupe de cartes */
-  gap: 30px;            /* Espace entre les cartes */
+  flex-wrap: wrap;     
+  justify-content: center; 
+  gap: 30px;        
   padding: 20px 0;
 }
 
@@ -16,11 +16,9 @@
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   
-  /* FORCE L'ESPACE : 
-     On dit que chaque carte prend environ 45% de la largeur du parent.
-     Comme 45% + 45% = 90%, la 3ème ne peut pas tenir et passe à la ligne ! */
+ 
   flex: 0 0 45%; 
-  min-width: 400px; /* Sécurité pour qu'elles ne deviennent pas trop petites */
+  min-width: 400px; 
 }
 
 .card img {
