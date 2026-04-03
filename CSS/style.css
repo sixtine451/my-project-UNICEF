@@ -6,8 +6,8 @@
 @import url("components/card.css");
 
 body {
-  background-color: #41AFF2; /* Un gris très clair, ou la couleur de ton choix */
-  margin: 0; /* Pour éviter les bordures blanches sur les côtés */
+  background-color: #009edb; 
+  margin: 0; 
 }
 body {
   font-family: 'Lora', serif;
